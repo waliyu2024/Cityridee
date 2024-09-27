@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+     <!-- font awesome cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,400;0,600;0,800;0,900;1,100;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/Screenshot 2023-12-07 083631.jpg">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <p><span>C</span>ITYRIDE</p>
+        </div>
+        <div class="ser">
+                 <i class="fa fa-bars"></i> 
+        </div>
+  
+        <nav>
+            <ul class="show">
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- <button class="btn"><a href="#">Get started </a></button> -->
+    </header>
+     <!-- container start -->
+     <div id="container">
+        <!-- form wrap start -->
+        <div class="form-wrap">
+            <h1>Login<i class="fa fa-paper-plane" style="color: #009688;"></i></h1>
+            <div class="fre">
+           
+            </div>
+            <!-- form start -->
+            <form method="post" action="/dashboards.html">
+               
+                <div class="form-group">
+                    <label for="email">email:</label>
+                    <input type="email" name="email" id="email">
+                    </div>
+                    <select class="form-group" name="model" id="">
+                        <option value="rider">rider</option>
+                        <option value="users">users</option>
+                    </select>
+                <div class="form-group">
+                    <label for="password">Confirm Password:</label>
+                    <input type="password" name="password" id="password">
+                    </div>
+                   
+                    <div class="ret">
+                    <button type="submit"><a href="/drivers">Login</a></button>
+                    </div>
+                
+
+
+
+     <script>
+     document.querySelector(".fa").addEventListener("click", function(){
+    document.querySelector(".show").classList.toggle("active")
+    document.querySelector(".fa").classList.toggle("active")
+    document.querySelector(".btn").classList.toggle("active")
+                        })
+    </script>
+
+                    <script src=""></script>
+</body>
+</html>

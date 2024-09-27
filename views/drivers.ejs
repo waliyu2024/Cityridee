@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cityride Dashboard</title>
+    <link rel="stylesheet" href="/css/drivers.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <div id="dashboard">
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <h2>Drivers Dashboard</h2>
+            <nav>
+                <ul>
+                    
+                     <li><a href="/">Home</a></li>
+                    <!-- <li><a href="#Dashboard">Dashboard</a></li> -->
+                    <li><a href="#FAQ">FAQ</a></li>
+                    <li><a href="/login" style="color: red;">Logout</a></li>
+                    <!-- <center> -->
+                        <div class="button">
+                        <button id="click">Go Live</button>
+                    </div>
+            <!-- </center> -->
+                    <li><a href="#settings">Settings</a></li> 
+                    
+                </ul>
+            </nav>
+        </aside>
+        
+        <!-- Main Content -->
+        <main id="main-content">
+            <!-- Header -->
+            <header>
+                <button id="hamburger" aria-label="Toggle Sidebar">&#9776;</button>
+                <h1>Welcome to the Drivers Dashboard</h1>
+                <div id="header-actions">
+                    <button id="scissors" aria-label="Toggle Widgets">&#9998;</button>
+                    <button id="notifications">Notifications</button>
+                    <button id="profile">Profile</button>
+                    
+                </div>
+            </header>
+            
+            <!-- Map Section -->
+            <section id="map-section">
+                <div id="map"></div>
+            </section>
+          
+            
+            <!-- Additional Widgets or Statistics -->
+            <section id="widgets">
+                <div class="widget">
+                  
+        <h3>Requests</h3>
+
+         <div class="request">
+            <div class="request1">
+                <!-- <p>Some content for widget 1.</p>   --> <img src="/images/people.png" class="pic"> 
+                 <p class="inpt">John Doe</p>
+
+                 <div class="two-btn">
+                    <button>Accept</button>
+                    <button>Decline</button>
+                 </div>
+                </div>
+
+                <div class="request1">
+                    <!-- <p>Some content for widget 1.</p>   --> <img src="/images/WhatsApp Image 2024-06-03 at 11.04.54 AM.jpeg" class="pic"> 
+                     <p class="inpt">John Doe</p>
+
+                     <div class="two-btn">
+                        <button>Accept</button>
+                        <button>Decline</button>
+                     </div>
+                    </div>
+                </div>
+                    
+       
+                </div>
+                <!-- <div class="widget">
+                    <h3>Widget 2</h3>
+                    <p>Some content for widget 2.</p>
+                </div> -->
+            </section>
+        </main>
+    </div>
+
+	
+     <div class="cover">
+
+     </div>
+     
+     
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="/js/drivers.js"></script>
+</body>
+</html>
