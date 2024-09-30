@@ -42,6 +42,19 @@ app.get('/drivers', (req,res)=>{
 })
 
 
+app.get('/contact', (req,res)=>{
+    res.render("contact")
+})
+
+
+
+
+app.get('/about', (req,res)=>{
+    res.render("about")
+})
+
+
+
 app.get('/dashboard', (req,res)=>{
     res.render("dashboard")
 })

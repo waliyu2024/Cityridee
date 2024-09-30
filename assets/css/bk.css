@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    margin: 5px;
+    padding: 10px;
+    width: 250px;
+}
+
+#map {
+    width: 100%;
+    height: calc(100vh - 200px); /* Adjust height below the title and form */
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    input, textarea {
+        width: 90%;
+    }
+}
