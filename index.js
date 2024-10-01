@@ -47,6 +47,9 @@ app.get('/contact', (req,res)=>{
 })
 
 
+app.get('/bk', (req,res)=>{
+    res.render("bk")
+})
 
 
 app.get('/about', (req,res)=>{
